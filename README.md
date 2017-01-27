@@ -36,7 +36,7 @@ queueProcessor.watch(
 
 ### Methods
 
-```constructor(options)```
+```new Hooq(options)```
 
 Used to setup the Hooq library.
 
