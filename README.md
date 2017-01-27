@@ -44,16 +44,13 @@ Used to setup the Hooq library.
 
 Called when a response comes back
 
-* haveMessageCallback(message, done)
-
+##### haveMessageCallback(message, done)
 Call ```done()``` when you've finished processing an item to avoid reprocessing it.
 
-* noMessageCallback()
-
+##### noMessageCallback()
 Called when no new items
 
-* errorCallback(error)
-
+##### errorCallback(error)
 Called when there's been an error
 
 ### Options
