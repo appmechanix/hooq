@@ -9,8 +9,7 @@ Hooq queueing library - for use with Hooq Queues.
 
 The library automatically sets up a interval that watches for new items on the queue.
 
-```js
-var hooq = require('hooq');
+```var hooq = require('hooq');
 
 var queueProcessor = new hooq(
     {
@@ -31,8 +30,7 @@ queueProcessor.watch(
     function (err) {
         console.log("There has been an error", err);
     }
-);
-```
+);```
 
 ### Methods
 
@@ -42,7 +40,7 @@ Used to setup the Hooq library.
 
 ```watch(haveMessageCallback, noMessageCallback, errorCallback)```
 
-
+These are words
 
 ### Options
 
