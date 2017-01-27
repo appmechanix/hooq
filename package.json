@@ -1,0 +1,22 @@
+{
+  "name": "hooq",
+  "version": "0.0.1",
+  "description": "Pulls from Hooq.io queues",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appmechanix/hooq.git"
+  },
+  "author": "dwnz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appmechanix/hooq/issues"
+  },
+  "homepage": "https://github.com/appmechanix/hooq#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
