@@ -1,6 +1,6 @@
 {
   "name": "hooq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pulls from Hooq.io queues",
   "main": "lib/index.js",
   "scripts": {
