@@ -42,7 +42,19 @@ Used to setup the Hooq library.
 
 ```watch(haveMessageCallback, noMessageCallback, errorCallback)```
 
-These are words
+Called when a response comes back
+
+* haveMessageCallback(message, done)
+
+Call ```done()``` when you've finished processing an item to avoid reprocessing it.
+
+* noMessageCallback()
+
+Called when no new items
+
+* errorCallback(error)
+
+Called when there's been an error
 
 ### Options
 
